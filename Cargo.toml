@@ -1,0 +1,9 @@
+[package]
+name = "synapse"
+version = "0.1.0"
+authors = ["Enzo Zizzi <enzo.hautenauven09@hotmail.com>"]
+edition = "2024"
+description = "Calculation of Vortex, Radiance and Axon network metrics."
+license = "MIT"
+
+[dependencies]
