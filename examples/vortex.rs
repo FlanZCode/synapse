@@ -1,4 +1,4 @@
-use synapse::NetworkData;
+use synapse_rs::NetworkData;
 
 fn main() {
     let measure = NetworkData {

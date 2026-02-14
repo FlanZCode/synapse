@@ -1,6 +1,6 @@
 [package]
 name = "synapse-rs"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Enzo Zizzi <enzo.hautenauven09@hotmail.com>"]
 edition = "2021"
 description = "A standardized metric system (Vortex, Radiance, Axon) to evaluate real-world network quality beyond simple speed tests."
