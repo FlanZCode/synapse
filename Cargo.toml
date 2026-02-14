@@ -1,5 +1,5 @@
 [package]
-name = "synapse"
+name = "synapse-rs"
 version = "0.1.0"
 authors = ["Enzo Zizzi <enzo.hautenauven09@hotmail.com>"]
 edition = "2021"
