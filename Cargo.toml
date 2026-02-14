@@ -2,8 +2,20 @@
 name = "synapse"
 version = "0.1.0"
 authors = ["Enzo Zizzi <enzo.hautenauven09@hotmail.com>"]
-edition = "2024"
-description = "Calculation of Vortex, Radiance and Axon network metrics."
+edition = "2021"
+description = "A standardized metric system (Vortex, Radiance, Axon) to evaluate real-world network quality beyond simple speed tests."
 license = "MIT"
+repository = "https://github.com/FlanZCode/synapse"
+readme = "README.md"
+keywords = ["network", "metrics", "quality", "speedtest", "latency"]
+categories = ["network-programming", "science"]
+
+[features]
+default = []
+serde = ["dep:serde"]
 
 [dependencies]
+serde = { version = "1.0.228", features = ["derive"], optional = true }
+
+[dev-dependencies]
+serde_json = "1.0.149"
